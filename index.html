@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafeGuard - Women Safety App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>SafeGuard</h1>
+    </header>
+    <main>
+        <div id="map-container">
+            <div id="map"></div>
+        </div>
+        <div id="action-buttons">
+            <button id="sosButton" class="sos-button">
+                <i class="fas fa-exclamation-triangle"></i> SOS Alert
+            </button>
+            <button id="trustedContactsButton" class="action-button">
+              <i class="fas fa-users"></i> Trusted Contacts
+            </button>
+            <button id="safeRoutesButton" class="action-button">
+                <i class="fas fa-route"></i> Safe Routes
+            </button>
+        </div>
+        <div id="status-message"></div>
+    </main>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+</body>
+
+</html>
