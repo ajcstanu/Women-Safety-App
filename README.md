@@ -96,6 +96,5 @@ The UI consists of an HTML, CSS, and JavaScript-based interface:
 - Integrate smartwatch sensors
 - Optimize battery consumption
 
-## License
-MIT License
+
 
